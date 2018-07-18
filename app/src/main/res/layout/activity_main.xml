@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B388FF"
+    android:background="#000080"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -23,7 +23,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="16dp"
         android:text="I'm so hungry"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/holo_red_dark"
         android:textSize="34sp" />
 
     <Button

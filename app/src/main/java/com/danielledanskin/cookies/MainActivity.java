@@ -1,5 +1,6 @@
 package com.danielledanskin.cookies;
 
+import android.graphics.Color;
 import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         // TODO: Find a reference to the TextView in the layout. Change the text.
         TextView statusText = (TextView) findViewById(R.id.status_text_view);
         statusText.setText("I'm so full.");
+        statusText.setTextColor(Color.GREEN);
 
     }
 }
